@@ -13,6 +13,8 @@
 		B240652326E1BA4D004558D9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B240652226E1BA4D004558D9 /* Preview Assets.xcassets */; };
 		B240652526E1BA4D004558D9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240652426E1BA4D004558D9 /* Persistence.swift */; };
 		B240652826E1BA4D004558D9 /* CrashTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B240652626E1BA4D004558D9 /* CrashTest.xcdatamodeld */; };
+		B240652F26E1BAE7004558D9 /* FormlessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240652E26E1BAE7004558D9 /* FormlessView.swift */; };
+		B240653126E1BAF2004558D9 /* FormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B240653026E1BAF2004558D9 /* FormView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		B240652226E1BA4D004558D9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B240652426E1BA4D004558D9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		B240652726E1BA4D004558D9 /* CrashTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrashTest.xcdatamodel; sourceTree = "<group>"; };
+		B240652E26E1BAE7004558D9 /* FormlessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormlessView.swift; sourceTree = "<group>"; };
+		B240653026E1BAF2004558D9 /* FormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 			children = (
 				B240651B26E1BA4B004558D9 /* CrashTestApp.swift */,
 				B240651D26E1BA4B004558D9 /* ContentView.swift */,
+				B240652E26E1BAE7004558D9 /* FormlessView.swift */,
+				B240653026E1BAF2004558D9 /* FormView.swift */,
 				B240651F26E1BA4D004558D9 /* Assets.xcassets */,
 				B240652426E1BA4D004558D9 /* Persistence.swift */,
 				B240652626E1BA4D004558D9 /* CrashTest.xcdatamodeld */,
@@ -143,10 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B240653126E1BAF2004558D9 /* FormView.swift in Sources */,
 				B240652526E1BA4D004558D9 /* Persistence.swift in Sources */,
 				B240651E26E1BA4B004558D9 /* ContentView.swift in Sources */,
 				B240651C26E1BA4B004558D9 /* CrashTestApp.swift in Sources */,
 				B240652826E1BA4D004558D9 /* CrashTest.xcdatamodeld in Sources */,
+				B240652F26E1BAE7004558D9 /* FormlessView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
